@@ -1,7 +1,7 @@
 package SewingClass;
 
 public class SimpleDress implements SafeTool {
-    String name = "Простая одежда";
+    String name = "Костюм ученика";
     int safetyMargin = 100;
 
     @Override

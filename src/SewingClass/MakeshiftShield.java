@@ -5,7 +5,7 @@ import java.util.Random;
 public class MakeshiftShield extends Shield{
     protected static Random rnd = new Random();
     public MakeshiftShield() {
-        super("Самодельный щит", rnd.nextInt(50), 25, rnd.nextInt(21-10)+10);
+        super("Эксклюзивный", rnd.nextInt(50), 25, rnd.nextInt(21-10)+10);
     }
 
     @Override

@@ -42,7 +42,7 @@ public abstract class Shield implements SafeTool{
 
     @Override
     public String toString() {
-        return String.format("%s (защита: %d ресурс: %d)", name, protection(), safetyMargin);
+        return String.format("%s (Доспех: %d ресурс: %d)", name, protection(), safetyMargin);
     }
 }
 

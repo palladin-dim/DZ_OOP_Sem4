@@ -3,7 +3,7 @@ package SewingClass;
 public class GlassShield extends Shield{
 
     public GlassShield() {
-        super("Стеклянный щит", 100, 80, 1);
+        super("Легкий", 100, 80, 1);
     }
 
 

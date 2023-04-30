@@ -3,7 +3,7 @@ package SewingClass;
 public class WoodShield extends Shield{
 
     public WoodShield() {
-        super("Деревянный щит", 15, 20, 25);
+        super("Щит ", 15, 20, 25);
     }
 
     @Override
