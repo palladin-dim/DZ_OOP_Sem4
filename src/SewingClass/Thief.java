@@ -1,9 +1,9 @@
 package SewingClass;
 
-public class Thief extends Warrior<Knife>{
+public class Thief extends Warrior<Knife, SafeTool>{
 
-    public Thief(String name, int hp, Weapon weapon) {
-        super(name, hp, (Knife) weapon);
+    public Thief(String name, int hp, SafeTool protect, Knife weapon) {
+        super(name, hp, protect, weapon);
     }
 
     @Override
@@ -11,3 +11,4 @@ public class Thief extends Warrior<Knife>{
         return super.toString();
     }
 }
+

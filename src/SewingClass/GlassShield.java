@@ -1,24 +1,23 @@
 package SewingClass;
 
-public class Bow extends Throwing {
+public class GlassShield extends Shield{
 
-    private String name;
-    public Bow(int range) {
-        super(range);
-        this.name = "Лук";
+    public GlassShield() {
+        super("Стеклянный щит", 100, 80, 1);
     }
 
+
     @Override
-    public int damage() {
-        return 20;
+    public int protection() {
+        if (isIntact()) return 100;
+        else return 0;
     }
 
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
-        res.append(name)
+        res.append(this.name)
                 .append(String.format("\n\t%s", super.toString()));
         return res.toString();
     }
 }
-

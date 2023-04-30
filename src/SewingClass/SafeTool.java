@@ -10,3 +10,4 @@ public interface SafeTool {
     void safetyMarginReduce();
     int safetyMargin();
 }
+

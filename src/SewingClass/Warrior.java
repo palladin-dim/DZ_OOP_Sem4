@@ -2,8 +2,6 @@ package SewingClass;
 
 import java.util.Random;
 
-import java.util.Random;
-
 public abstract class Warrior<W extends Weapon, S extends SafeTool> extends Personage{
     protected static Random rnd = new Random();
     protected W weapon;

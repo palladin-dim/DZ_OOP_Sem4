@@ -1,3 +1,5 @@
+package SewingClass;
+
 import java.util.Random;
 
 public abstract class Personage {
@@ -42,3 +44,4 @@ public abstract class Personage {
         }
     }
 }
+

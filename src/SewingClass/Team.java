@@ -51,3 +51,4 @@ public class Team<T extends Personage> implements Iterable<T>{
         return min;
     }
 }
+

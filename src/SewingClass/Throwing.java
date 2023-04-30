@@ -1,6 +1,6 @@
 package SewingClass;
 
-public abstract class Throwing implements Weapon {
+public abstract class Throwing implements Weapon{
     int range;
 
     public Throwing(int range) {
@@ -13,6 +13,7 @@ public abstract class Throwing implements Weapon {
 
     @Override
     public String toString() {
-        return String.format("Метательное. урон: %d. Расстояние: %d", damage(), getRange());
+        return String.format("Метательное. Урон: %d. Расстояни: %d", damage(), getRange());
     }
 }
+

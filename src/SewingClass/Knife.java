@@ -1,7 +1,6 @@
 package SewingClass;
 
-public class Knife implements Weapon {
-
+public class Knife implements Weapon{
     @Override
     public int damage() {
         return 10;
@@ -9,6 +8,7 @@ public class Knife implements Weapon {
 
     @Override
     public String toString() {
-        return String.format("Нож перочинный (макс. урон %d)", this.damage());
+        return String.format("Нож перочинный (макс.урон %d)", this.damage());
     }
 }
+

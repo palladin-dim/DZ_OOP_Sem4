@@ -1,17 +1,17 @@
 package SewingClass;
 
-public class GlassShield extends Shield{
+public class WoodShield extends Shield{
 
-    public GlassShield() {
-        super("Лёкий", 50, 40, 1);
+    public WoodShield() {
+        super("Деревянный щит", 15, 20, 25);
     }
-
 
     @Override
     public int protection() {
-        if (isIntact()) return 100;
+        if (isIntact()) return 15;
         else return 0;
     }
+
 
     @Override
     public String toString() {
@@ -21,3 +21,4 @@ public class GlassShield extends Shield{
         return res.toString();
     }
 }
+
